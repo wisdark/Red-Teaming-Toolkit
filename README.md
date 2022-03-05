@@ -49,6 +49,7 @@ This repository contains cutting-edge open-source security tools (OST) that will
 ### Payload Development
 |Name|Description|URL|
 |-----|-----------|----|
+|Ivy|Ivy is a payload creation framework for the execution of arbitrary VBA (macro) source code directly in memory.|https://github.com/optiv/Ivy|
 |PEzor|Open-Source PE Packer|https://github.com/phra/PEzor|
 |GadgetToJScript|A tool for generating .NET serialized gadgets that can trigger .NET assembly load/execution when deserialized using BinaryFormatter from JS/VBS/VBA scripts.|https://github.com/med0x2e/GadgetToJScript|
 |ScareCrow|Payload creation framework designed around EDR bypass.|https://github.com/optiv/ScareCrow|
@@ -74,6 +75,7 @@ This repository contains cutting-edge open-source security tools (OST) that will
 |MSBuildAPICaller|MSBuild Without MSBuild.exe|https://github.com/rvrsh3ll/MSBuildAPICaller|
 |macro_pack|macro_pack is a tool by @EmericNasi used to automatize obfuscation and generation of MS Office documents, VB scripts, and other formats for pentest, demo, and social engineering assessments.|https://github.com/sevagas/macro_pack|
 |inceptor|Template-Driven AV/EDR Evasion Framework|https://github.com/klezVirus/inceptor|
+|mortar|evasion technique to defeat and divert detection and prevention of security products (AV/EDR/XDR)|https://github.com/0xsp-SRD/mortar|
 
 ## Delivery
 ### Phishing
@@ -120,6 +122,7 @@ This repository contains cutting-edge open-source security tools (OST) that will
 |Chameleon|A tool for evading Proxy categorisation|https://github.com/mdsecactivebreach/Chameleon|
 |Cobalt Strike Malleable C2 Design and Reference Guide|Cobalt Strike Malleable C2 Design and Reference Guide|https://github.com/threatexpress/malleable-c2/|
 |redirect.rules|Quick and dirty dynamic redirect.rules generator|https://github.com/0xZDH/redirect.rules|
+|CobaltBus|Cobalt Strike External C2 Integration With Azure Servicebus, C2 traffic via Azure Servicebus|https://github.com/Flangvik/CobaltBus|
 
 ### Log Aggregation
 |Name|Description|URL|
@@ -177,6 +180,7 @@ This repository contains cutting-edge open-source security tools (OST) that will
 |Chlonium|Chlonium is an application designed for cloning Chromium Cookies.|https://github.com/rxwx/chlonium|
 |SharpCloud|SharpCloud is a simple C# utility for checking for the existence of credential files related to Amazon Web Services, Microsoft Azure, and Google Compute.|https://github.com/chrismaddalena/SharpCloud|
 |pypykatz|Mimikatz implementation in pure Python. At least a part of it :)|https://github.com/skelsec/pypykatz|
+|nanodump|A Beacon Object File that creates a minidump of the LSASS process.|https://github.com/helpsystems/nanodump|
 
 ## Privilege Escalation
 |Name|Description|URL|
@@ -187,10 +191,13 @@ This repository contains cutting-edge open-source security tools (OST) that will
 |dazzleUP|A tool that detects the privilege escalation vulnerabilities caused by misconfigurations and missing updates in the Windows operating systems. dazzleUP detects the following vulnerabilities.|https://github.com/hlldz/dazzleUP|
 |PEASS|Privilege Escalation Awesome Scripts SUITE (with colors)|https://github.com/carlospolop/PEASS-ng|
 |SweetPotato|A collection of various native Windows privilege escalation techniques from service accounts to SYSTEM|https://github.com/CCob/SweetPotato|
+|MultiPotato| Another Potato to get SYSTEM via SeImpersonate privileges |https://github.com/S3cur3Th1sSh1t/MultiPotato|
 
 ## Defense Evasion
 |Name|Description|URL|
 |-----|-----------|----|
+|RefleXXion|RefleXXion is a utility designed to aid in bypassing user-mode hooks utilised by AV/EPP/EDR etc.|https://github.com/hlldz/RefleXXion|
+|EDRSandBlast|EDRSandBlast is a tool written in C that weaponize a vulnerable signed driver to bypass EDR detections (Kernel callbacks and ETW TI provider) and LSASS protections.|https://github.com/wavestone-cdt/EDRSandblast|
 |unDefender|Killing your preferred antimalware by abusing native symbolic links and NT paths.|https://github.com/APTortellini/unDefender|
 |Backstab|A tool to kill antimalware protected processes|https://github.com/Yaxser/Backstab|
 |SPAWN - Cobalt Strike BOF|Cobalt Strike BOF that spawns a sacrificial process, injects it with shellcode, and executes payload. Built to evade EDR/UserLand hooks by spawning sacrificial process with Arbitrary Code Guard (ACG), BlockDll, and PPID spoofing.|https://github.com/boku7/spawn|
@@ -206,6 +213,7 @@ This repository contains cutting-edge open-source security tools (OST) that will
 |DarkLoadLibrary|LoadLibrary for offensive operations.|https://github.com/bats3c/DarkLoadLibrary|
 |BlockETW|.Net 3.5 / 4.5 Assembly to block ETW telemetry in a process|https://github.com/Soledge/BlockEtw|
 |firewalker|This repo contains a simple library which can be used to add FireWalker hook bypass capabilities to existing code|https://github.com/mdsecactivebreach/firewalker|
+|KillDefenderBOF|Beacon Object File PoC implementation of KillDefender|https://github.com/Cerbersec/KillDefenderBOF|
 
 ## Persistence
 |Name|Description|URL|
@@ -274,6 +282,7 @@ This repository contains cutting-edge open-source security tools (OST) that will
 ### Adversary Emulation
 |Name|Description|URL|
 |-----|-----------|----|
+|Stratus Red Team|Stratus Red Team is "Atomic Red Team™" for the cloud, allowing to emulate offensive attack techniques in a granular and self-contained manner.|https://github.com/DataDog/stratus-red-team|
 |Prelude Operator|A Platform for Developer-first advanced security· Defend your organization by mimicking real adversarial attacks.|https://www.prelude.org/|
 |Caldera|An automated adversary emulation system that performs post-compromise adversarial behavior within Windows Enterprise networks.|https://github.com/mitre/caldera|
 |APTSimulator|A Windows Batch script that uses a set of tools and output files to make a system look as if it was compromised.|https://github.com/NextronSystems/APTSimulator|
