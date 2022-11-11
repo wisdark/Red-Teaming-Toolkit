@@ -76,6 +76,8 @@ This repository contains cutting-edge open-source security tools (OST) that will
 |macro_pack|macro_pack is a tool by @EmericNasi used to automatize obfuscation and generation of MS Office documents, VB scripts, and other formats for pentest, demo, and social engineering assessments.|https://github.com/sevagas/macro_pack|
 |inceptor|Template-Driven AV/EDR Evasion Framework|https://github.com/klezVirus/inceptor|
 |mortar|evasion technique to defeat and divert detection and prevention of security products (AV/EDR/XDR)|https://github.com/0xsp-SRD/mortar|
+|ProtectMyTooling|Multi-Packer wrapper letting us daisy-chain various packers, obfuscators and other Red Team oriented weaponry. Featured with artifacts watermarking, IOCs collection & PE Backdooring. You feed it with your implant, it does a lot of sneaky things and spits out obfuscated executable.|https://github.com/mgeeky/ProtectMyTooling|
+|Freeze|Freeze is a payload toolkit for bypassing EDRs using suspended processes, direct syscalls, and alternative execution methods|https://github.com/optiv/Freeze|
 
 ## Delivery
 ### Phishing
@@ -108,6 +110,7 @@ This repository contains cutting-edge open-source security tools (OST) that will
 |Sliver|Sliver is a general purpose cross-platform implant framework that supports C2 over Mutual-TLS, HTTP(S), and DNS.|https://github.com/BishopFox/sliver|
 |SILENTTRINITY|An asynchronous, collaborative post-exploitation agent powered by Python and .NET's DLR|https://github.com/byt3bl33d3r/SILENTTRINITY|
 |Pupy|Pupy is an opensource, cross-platform (Windows, Linux, OSX, Android) remote administration and post-exploitation tool mainly written in python|https://github.com/n1nj4sec/pupy|
+|Havoc|Havoc is a modern and malleable post-exploitation command and control framework, created by @C5pider.|https://github.com/HavocFramework/Havoc|
 
 ### Staging
 |Name|Description|URL|
@@ -123,6 +126,8 @@ This repository contains cutting-edge open-source security tools (OST) that will
 |Cobalt Strike Malleable C2 Design and Reference Guide|Cobalt Strike Malleable C2 Design and Reference Guide|https://github.com/threatexpress/malleable-c2/|
 |redirect.rules|Quick and dirty dynamic redirect.rules generator|https://github.com/0xZDH/redirect.rules|
 |CobaltBus|Cobalt Strike External C2 Integration With Azure Servicebus, C2 traffic via Azure Servicebus|https://github.com/Flangvik/CobaltBus|
+|SourcePoint|SourcePoint is a C2 profile generator for Cobalt Strike command and control servers designed to ensure evasion.|https://github.com/Tylous/SourcePoint|
+|RedGuard|RedGuard is a C2 front flow control tool,Can avoid Blue Teams,AVs,EDRs check.|https://github.com/wikiZ/RedGuard|
 
 ### Log Aggregation
 |Name|Description|URL|
@@ -181,6 +186,7 @@ This repository contains cutting-edge open-source security tools (OST) that will
 |SharpCloud|SharpCloud is a simple C# utility for checking for the existence of credential files related to Amazon Web Services, Microsoft Azure, and Google Compute.|https://github.com/chrismaddalena/SharpCloud|
 |pypykatz|Mimikatz implementation in pure Python. At least a part of it :)|https://github.com/skelsec/pypykatz|
 |nanodump|A Beacon Object File that creates a minidump of the LSASS process.|https://github.com/helpsystems/nanodump|
+|Koh|Koh is a C# and Beacon Object File (BOF) toolset that allows for the capture of user credential material via purposeful token/logon session leakage.|https://github.com/GhostPack/Koh|
 
 ## Privilege Escalation
 |Name|Description|URL|
@@ -192,6 +198,7 @@ This repository contains cutting-edge open-source security tools (OST) that will
 |PEASS|Privilege Escalation Awesome Scripts SUITE (with colors)|https://github.com/carlospolop/PEASS-ng|
 |SweetPotato|A collection of various native Windows privilege escalation techniques from service accounts to SYSTEM|https://github.com/CCob/SweetPotato|
 |MultiPotato| Another Potato to get SYSTEM via SeImpersonate privileges |https://github.com/S3cur3Th1sSh1t/MultiPotato|
+|KrbRelayUp|a universal no-fix local privilege escalation in windows domain environments where LDAP signing is not enforced (the default settings).|https://github.com/Dec0ne/KrbRelayUp|
 
 ## Defense Evasion
 |Name|Description|URL|
@@ -214,6 +221,8 @@ This repository contains cutting-edge open-source security tools (OST) that will
 |BlockETW|.Net 3.5 / 4.5 Assembly to block ETW telemetry in a process|https://github.com/Soledge/BlockEtw|
 |firewalker|This repo contains a simple library which can be used to add FireWalker hook bypass capabilities to existing code|https://github.com/mdsecactivebreach/firewalker|
 |KillDefenderBOF|Beacon Object File PoC implementation of KillDefender|https://github.com/Cerbersec/KillDefenderBOF|
+|Mangle|Mangle is a tool that manipulates aspects of compiled executables (.exe or DLL) to avoid detection from EDRs|https://github.com/optiv/Mangle|
+|AceLdr|Cobalt Strike UDRL for memory scanner evasion.|https://github.com/kyleavery/AceLdr|
 
 ## Persistence
 |Name|Description|URL|
@@ -228,12 +237,15 @@ This repository contains cutting-edge open-source security tools (OST) that will
 |DAMP|The Discretionary ACL Modification Project: Persistence Through Host-based Security Descriptor Modification.|https://github.com/HarmJ0y/DAMP|
 |IIS-Raid|A native backdoor module for Microsoft IIS (Internet Information Services)|https://github.com/0x09AL/IIS-Raid|
 |SharPyShell|tiny and obfuscated ASP.NET webshell for C# web applications|https://github.com/antonioCoco/SharPyShell|
+|ScheduleRunner|A C# tool with more flexibility to customize scheduled task for both persistence and lateral movement in red team operation|https://github.com/netero1010/ScheduleRunner|
+|SharpEventPersist|Persistence by writing/reading shellcode from Event Log|https://github.com/improsec/SharpEventPersist|
 
 ## Lateral Movement
 |Name|Description|URL|
 |-----|-----------|----|
 |Liquid Snake|LiquidSnake is a tool that allows operators to perform fileless lateral movement using WMI Event Subscriptions and GadgetToJScript|https://github.com/RiccardoAncarani/LiquidSnake|
 |PowerUpSQL|A PowerShell Toolkit for Attacking SQL Server|https://github.com/NetSPI/PowerUpSQL|
+|SCShell|Fileless lateral movement tool that relies on ChangeServiceConfigA to run command|https://github.com/Mr-Un1k0d3r/SCShell|
 |SharpRDP|Remote Desktop Protocol Console Application for Authenticated Command Execution|https://github.com/0xthirteen/SharpRDP|
 |MoveKit|Movekit is an extension of built in Cobalt Strike lateral movement by leveraging the execute_assembly function with the SharpMove and SharpRDP .NET assemblies.|https://github.com/0xthirteen/MoveKit|
 |SharpNoPSExec|File less command execution for lateral movement.|https://github.com/juliourena/SharpNoPSExec|
@@ -253,6 +265,9 @@ This repository contains cutting-edge open-source security tools (OST) that will
 |SharpRDPHijack|Sharp RDP Hijack is a proof-of-concept .NET/C# Remote Desktop Protocol (RDP) session hijack utility for disconnected sessions|https://github.com/bohops/SharpRDPHijack|
 |CheeseTools|This repository has been made basing onto the already existing MiscTool, so big shout-out to rasta-mouse for releasing them and for giving me the right motivation to work on them.|https://github.com/klezVirus/CheeseTools|
 |SharpSpray|SharpSpray is a Windows domain password spraying tool written in .NET C#.|https://github.com/iomoath/SharpSpray|
+|MalSCCM|This tool allows you to abuse local or remote SCCM servers to deploy malicious applications to hosts they manage.|https://github.com/nettitude/MalSCCM
+|Coercer|A python script to automatically coerce a Windows server to authenticate on an arbitrary machine through 9 methods.|https://github.com/p0dalirius/Coercer|
+|SharpSploit|SharpSploit is a .NET post-exploitation library written in C# that aims to highlight the attack surface of .NET and make the use of offensive .NET easier for red teamers.|https://github.com/cobbr/SharpSploit|
 
 ## Exfiltration
 |Name|Description|URL|
@@ -262,6 +277,12 @@ This repository contains cutting-edge open-source security tools (OST) that will
 |Egress-Assess|Egress-Assess is a tool used to test egress data detection capabilities.|https://github.com/FortyNorthSecurity/Egress-Assess|
 
 ## Miscellaneous
+### Threat-informed Defense
+|Name|Description|URL|
+|-----|-----------|----|
+|Tidal Cyber|Tidal Cyber helps enterprise organizations to define, measure, and improve their defenses to address the adversary behaviors that are most important to them.|https://app.tidalcyber.com|
+|Control Validation Compass|Threat modeling aide & purple team content repository, pointing security & intelligence teams to 10,000+ publicly-accessible technical and policy controls and 2,100+ offensive security tests, aligned with nearly 600 common attacker techniques|https://controlcompass.github.io|
+
 ### Cloud
 #### Amazon Web Services  (AWS)
 |Name|Description|URL|
